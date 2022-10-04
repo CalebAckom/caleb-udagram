@@ -20,7 +20,7 @@ spec:
         imagePullPolicy: Always
         resources:
           requests:
-            memory: "100Mi"
+            memory: "500Mi"
             cpu: "250m"
           limits:
             memory: "8240Mi"
@@ -34,3 +34,4 @@ spec:
               name: awscred
           - secretRef:
              name: env-secret
+        
